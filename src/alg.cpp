@@ -65,7 +65,6 @@ std::string infx2pstfx(std::string inf)
     return work;
 }
 
-int eval(std::string pst) {
 int counter(const int& a, const int& b , const char& el)
 {
     switch (el)
@@ -78,8 +77,7 @@ int counter(const int& a, const int& b , const char& el)
     case '/':return a / b;
     }
 }
-
-} 
+ 
 int eval(std::string pst)
 {
     int summ{ 0 };
